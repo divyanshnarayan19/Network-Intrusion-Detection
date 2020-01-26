@@ -29,3 +29,11 @@ BASIC FEATURES OF EACH NETWORK CONNECTION VECTOR
 - Land: if source and destination IP addresses and port numbers are equal then, this variable takes value 1 else 0 
 - Wrong_fragment: Total number of wrong fragments in this connection 
 - Urgent: Number of urgent packets in this connection. Urgent packets are packets with the urgent bit activated
+
+- Hot: Number of „hot‟ indicators in the content such as: entering a system directory, creating programs and executing programs 
+- Num_failed _logins: Count of failed login attempts 
+- Logged_in Login Status: 1 if successfully logged in; 0 otherwise 
+- Num_compromised: Number of ``compromised' ' conditions 
+- Root_shell: 1 if root shell is obtained; 0 otherwise 
+- Su_attempted: 1 if ``su root'' command attempted or used; 0 otherwise 
+- Num_root: Number of ``root'' accesses or number of operations performed as a root in the connection 17 Num_file_creations: Number of file creation operations in the connection 18 Num_shells: Number of shell prompts 19 Num_access_files: Number of operations on access control files 20 Num_outbound_cmds: Number of outbound commands in an ftp session 21 Is_hot_login: 1 if the login belongs to the ``hot'' list i.e., root or admin; else 0 22 Is_guest_login: 1 if the login is a ``guest'' login; 0 otherwise
