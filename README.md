@@ -15,6 +15,7 @@ Your task to build network intrusion detection system to detect anamolies and at
 Please note that, currently the dependent variable (target variable) is not definied explicitly. However, you can use attack variable to define the target variable as required.
 
 LIST OF COLUMNS FOR THE DATA SET:
+
 ["duration","protocol_type","service","flag","src_bytes","dst_bytes","land", "wrong_fragment","urgent","hot","num_failed_logins","logged_in", "num_compromised","root_shell","su_attempted","num_root","num_file_creations", "num_shells","num_access_files","num_outbound_cmds","is_host_login", "is_guest_login","count","srv_count","serror_rate", "srv_serror_rate", "rerror_rate","srv_rerror_rate","same_srv_rate", "diff_srv_rate","srv_diff_host_rate","dst_host_count","dst_host_srv_count","dst_host_same_srv_rate", "dst_host_diff_srv_rate","dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate","dst_host_serror_rate","dst_host_srv_serror_rate", "dst_host_rerror_rate","dst_host_srv_rerror_rate","attack", "last_flag"]
 
 
@@ -36,4 +37,10 @@ BASIC FEATURES OF EACH NETWORK CONNECTION VECTOR
 - Num_compromised: Number of ``compromised' ' conditions 
 - Root_shell: 1 if root shell is obtained; 0 otherwise 
 - Su_attempted: 1 if ``su root'' command attempted or used; 0 otherwise 
-- Num_root: Number of ``root'' accesses or number of operations performed as a root in the connection 17 Num_file_creations: Number of file creation operations in the connection 18 Num_shells: Number of shell prompts 19 Num_access_files: Number of operations on access control files 20 Num_outbound_cmds: Number of outbound commands in an ftp session 21 Is_hot_login: 1 if the login belongs to the ``hot'' list i.e., root or admin; else 0 22 Is_guest_login: 1 if the login is a ``guest'' login; 0 otherwise
+- Num_root: Number of ``root'' accesses or number of operations performed as a root in the connection 
+- Num_file_creations: Number of file creation operations in the connection 
+- Num_shells: Number of shell prompts 
+- Num_access_files: Number of operations on access control files 
+- Num_outbound_cmds: Number of outbound commands in an ftp session 
+- Is_hot_login: 1 if the login belongs to the ``hot'' list i.e., root or admin; else 0 
+- Is_guest_login: 1 if the login is a ``guest'' login; 0 otherwise
